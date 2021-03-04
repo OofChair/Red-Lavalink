@@ -39,7 +39,7 @@ class LavalinkEvents(enum.Enum):
     """Websocket has been closed."""
 
     FORCED_DISCONNECT = "ForcefulDisconnectEvent"
-    """Connection has been disconnect, do not attempt to reconnect."""
+    """The connection has been disconnected, do not attempt to reconnect."""
 
     # Custom events
     QUEUE_END = "QueueEndEvent"
